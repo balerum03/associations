@@ -1,0 +1,15 @@
+<p id=”alert”><%= alert %></p>
+<h1>Login</h1>
+<%= form_tag logins_path do |form| %>
+  <div class=”field”>
+    <%= label_tag :Username %>
+    <%= text_field_tag :name %>
+  </div>
+  <div class=”field”>
+    <%= label_tag :email %>
+    <%= text_field_tag :email %>
+  </div>
+  <div class=”actions”>
+    <%= submit_tag 'Login' %>
+  </div>
+<% end %>

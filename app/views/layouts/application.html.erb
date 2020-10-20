@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Associations</title>
+    <title>Associate</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <% if !current_user.nil? %>
+      <p><%= current_user.username %></p>
+    <% else %>
+      <p>You are not logged In</p>
+    <% end %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <%= yield %>
+    <%= link_to 'log out', logout_path, method: "delete" %>
   </body>
 </html>
