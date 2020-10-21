@@ -10,7 +10,7 @@ class LoginsController < ApplicationController
     end
   end
   def destroy
-    session.delete(:user_id)
+    session[:user_id] = nil
     @current_user = nil
     redirect_to root_path, notice: 'Logged Out'
   end

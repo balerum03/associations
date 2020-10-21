@@ -4,18 +4,18 @@
     <title>Associate</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <% if !current_user.nil? %>
-      <p><%= current_user.username %></p>
-    <% else %>
-      <p>You are not logged In</p>
-    <% end %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <% if current_user %>
+      <p><%= current_user.username %></p>
+      <%= link_to 'log out', login_path(current_user.id), method: :delete %>
+    <% else %>
+      <p>You are not logged In</p>
+      <%= link_to 'Log in', new_login_path %>
+    <% end %>
     <%= yield %>
-    <%= link_to 'log out', logout_path, method: "delete" %>
   </body>
 </html>
