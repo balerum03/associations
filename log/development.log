@@ -23,9 +23,9 @@ Completed 200 OK in 12ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2387
 
 
 Started GET "/user/new" for 127.0.0.1 at 2020-10-19 19:39:25 -0500
-  
+
 ActionController::RoutingError (No route matches [GET] "/user/new"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -70,7 +70,7 @@ Built at: 10/19/2020 7:39:32 PM
                                      Asset       Size       Chunks                         Chunk Names
     js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
 js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
-                             manifest.json  364 bytes               [emitted]              
+                             manifest.json  364 bytes               [emitted]
 Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
 [./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
 [./app/javascript/channels/index.js] 211 bytes {application} [built]
@@ -120,10 +120,10 @@ Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.2ms | Allocations: 4603)
 Started GET "/" for 127.0.0.1 at 2020-10-19 19:42:08 -0500
   [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  
+
 ActionController::RoutingError (uninitialized constant UserController
 Did you mean?  UsersController):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
 actionpack (6.0.3.4) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
 actionpack (6.0.3.4) lib/action_dispatch/http/request.rb:81:in `controller_class'
@@ -337,9 +337,9 @@ Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.1ms | Allocations: 5344)
 Started GET "/" for 127.0.0.1 at 2020-10-20 14:18:41 -0500
   [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  
+
 AbstractController::ActionNotFound (The action 'index(@username)' could not be found for UsersController):
-  
+
 actionpack (6.0.3.4) lib/abstract_controller/base.rb:131:in `process'
 actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
 actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
@@ -395,11 +395,11 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started GET "/" for 127.0.0.1 at 2020-10-20 14:19:36 -0500
-  
-ArgumentError (Invalid route name, already in use: 'user' 
-You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+
+ArgumentError (Invalid route name, already in use: 'user'
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here:
 https://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
-  
+
 config/routes.rb:4:in `block in <main>'
 config/routes.rb:1:in `<main>'
 Started GET "/" for 127.0.0.1 at 2020-10-20 14:23:04 -0500
@@ -415,9 +415,9 @@ Completed 200 OK in 36ms (Views: 24.2ms | ActiveRecord: 1.6ms | Allocations: 117
 
 
 Started GET "/sessions/new" for 127.0.0.1 at 2020-10-20 14:23:11 -0500
-  
+
 ActionController::RoutingError (No route matches [GET] "/sessions/new"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -450,9 +450,9 @@ puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started GET "/sessions/new" for 127.0.0.1 at 2020-10-20 14:23:29 -0500
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
-  
+
 ActionController::RoutingError (No route matches [GET] "/sessions/new"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -671,9 +671,9 @@ Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.1ms | Allocations: 4733)
 
 
 Started GET "/Balerum03" for 127.0.0.1 at 2020-10-20 14:32:48 -0500
-  
+
 ActionController::RoutingError (No route matches [GET] "/Balerum03"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -705,9 +705,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started GET "/Balerum03" for 127.0.0.1 at 2020-10-20 14:33:20 -0500
-  
+
 ActionController::RoutingError (No route matches [GET] "/Balerum03"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -747,7 +747,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 118ms (ActiveRecord: 0.2ms | Allocations: 66547)
 
 
-  
+
 ActionView::Template::Error (undefined method `show_users_path' for #<#<Class:0x000056548baad800>:0x000056548ba67850>):
     16:       <tr>
     17:         <td><%= user.username %></td>
@@ -756,7 +756,7 @@ ActionView::Template::Error (undefined method `show_users_path' for #<#<Class:0x
     20:         <td><%= link_to 'Edit', edit_user_path(user) %></td>
     21:         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     22:       </tr>
-  
+
 app/views/users/index.html.erb:19
 app/views/users/index.html.erb:15
 Started GET "/users" for 127.0.0.1 at 2020-10-20 14:33:26 -0500
@@ -768,7 +768,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 97ms (ActiveRecord: 0.2ms | Allocations: 65499)
 
 
-  
+
 ActionView::Template::Error (undefined method `show_users_path' for #<#<Class:0x000056548baad800>:0x000056548b2750c0>):
     16:       <tr>
     17:         <td><%= user.username %></td>
@@ -777,7 +777,7 @@ ActionView::Template::Error (undefined method `show_users_path' for #<#<Class:0x
     20:         <td><%= link_to 'Edit', edit_user_path(user) %></td>
     21:         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     22:       </tr>
-  
+
 app/views/users/index.html.erb:19
 app/views/users/index.html.erb:15
 Started GET "/users" for 127.0.0.1 at 2020-10-20 14:33:53 -0500
@@ -787,7 +787,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2350)
 
 
-  
+
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p id="notice"><%= notice %></p>
 
 <h1>Users</h1>
@@ -820,9 +820,9 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 
 ):
 1:    <p id="notice"><%= notice %></p>
-2:    
+2:
 3:    <h1>Users</h1>
-4:    
+4:
 5:    <table>
 6:      <thead>
 7:        <tr>
@@ -831,7 +831,7 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 10:          <th colspan="3"></th>
 11:        </tr>
 12:      </thead>
-13:    
+13:
 14:      <tbody>
 15:        <% @users.each do |user| %>
 16:          <tr>
@@ -844,11 +844,11 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 23:        <% end %>
 24:      </tbody>
 25:    </table>
-26:    
+26:
 27:    <br>
-28:    
+28:
 29:    <%= link_to 'New User', new_user_path %>
-  
+
 app/views/users/index.html.erb:19: syntax error, unexpected symbol literal
 app/views/users/index.html.erb:19: syntax error, unexpected ')', expecting `end'
 app/views/users/index.html.erb:32: syntax error, unexpected `end', expecting end-of-input
@@ -876,7 +876,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 100ms (ActiveRecord: 0.1ms | Allocations: 66475)
 
 
-  
+
 ActionView::Template::Error (undefined method `show_users_path' for #<#<Class:0x00007f5cb012f778>:0x00007f5cb012de00>):
     16:       <tr>
     17:         <td><%= user.username %></td>
@@ -885,7 +885,7 @@ ActionView::Template::Error (undefined method `show_users_path' for #<#<Class:0x
     20:         <td><%= link_to 'Edit', edit_user_path(user) %></td>
     21:         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     22:       </tr>
-  
+
 app/views/users/index.html.erb:19
 app/views/users/index.html.erb:15
 Started GET "/users" for 127.0.0.1 at 2020-10-20 14:34:32 -0500
@@ -899,7 +899,7 @@ Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.1ms | Allocations: 557
 
 
 Started GET "/users.Balerum03" for 127.0.0.1 at 2020-10-20 14:34:35 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -909,7 +909,7 @@ Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 4593)
 
 
 Started GET "/users.Balerum03" for 127.0.0.1 at 2020-10-20 14:34:55 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -919,7 +919,7 @@ Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.1ms | Allocations: 562
 
 
 Started GET "/users.username" for 127.0.0.1 at 2020-10-20 14:34:57 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -929,7 +929,7 @@ Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.1ms | Allocations: 4396)
 
 
 Started GET "/users.username" for 127.0.0.1 at 2020-10-20 14:34:57 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -939,7 +939,7 @@ Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.1ms | Allocations: 4385)
 
 
 Started GET "/users.username" for 127.0.0.1 at 2020-10-20 14:35:00 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -961,7 +961,7 @@ Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.2ms | Allocations: 557
 
 
 Started GET "/users.username" for 127.0.0.1 at 2020-10-20 14:35:08 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -971,7 +971,7 @@ Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 4399)
 
 
 Started GET "/users.username" for 127.0.0.1 at 2020-10-20 14:35:16 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -979,7 +979,7 @@ Processing by UsersController#index as
 Completed 500 Internal Server Error in 206ms (ActiveRecord: 0.1ms | Allocations: 127811)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `username' for #<#<Class:0x000056548aeeb508>:0x000056548ae45950>
 Did you mean?  user_path):
     16:       <tr>
@@ -989,11 +989,11 @@ Did you mean?  user_path):
     20:         <td><%= link_to 'Edit', edit_user_path(user) %></td>
     21:         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     22:       </tr>
-  
+
 app/views/users/index.html.erb:19
 app/views/users/index.html.erb:15
 Started GET "/users.username" for 127.0.0.1 at 2020-10-20 14:35:30 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -1003,7 +1003,7 @@ Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.1ms | Allocations: 5645)
 
 
 Started GET "/users.username" for 127.0.0.1 at 2020-10-20 14:35:43 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -1011,7 +1011,7 @@ Processing by UsersController#index as
 Completed 500 Internal Server Error in 168ms (ActiveRecord: 0.2ms | Allocations: 127818)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `username' for #<#<Class:0x00007f5cc0721630>:0x00007f5cc0703658>
 Did you mean?  user_path):
     16:       <tr>
@@ -1021,11 +1021,11 @@ Did you mean?  user_path):
     20:         <td><%= link_to 'Edit', edit_user_path(user) %></td>
     21:         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     22:       </tr>
-  
+
 app/views/users/index.html.erb:19
 app/views/users/index.html.erb:15
 Started GET "/users.username" for 127.0.0.1 at 2020-10-20 14:35:48 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -1035,7 +1035,7 @@ Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.2ms | Allocations: 5645)
 
 
 Started GET "/users.username" for 127.0.0.1 at 2020-10-20 14:35:51 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -1045,7 +1045,7 @@ Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 4390)
 
 
 Started GET "/users.username" for 127.0.0.1 at 2020-10-20 14:36:00 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -1055,7 +1055,7 @@ Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms | Allocations: 5627
 
 
 Started GET "/users.1" for 127.0.0.1 at 2020-10-20 14:36:01 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -1065,7 +1065,7 @@ Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.1ms | Allocations: 4390)
 
 
 Started GET "/users.1" for 127.0.0.1 at 2020-10-20 14:36:45 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -1073,7 +1073,7 @@ Processing by UsersController#index as
 Completed 500 Internal Server Error in 179ms (ActiveRecord: 0.1ms | Allocations: 127901)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `user_id' for #<#<Class:0x00007f5cc0803f30>:0x00007f5cc0802180>
 Did you mean?  user):
     16:       <tr>
@@ -1083,11 +1083,11 @@ Did you mean?  user):
     20:         <td><%= link_to 'Edit', edit_user_path(user) %></td>
     21:         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     22:       </tr>
-  
+
 app/views/users/index.html.erb:19
 app/views/users/index.html.erb:15
 Started GET "/users.1" for 127.0.0.1 at 2020-10-20 14:37:01 -0500
-Processing by UsersController#index as 
+Processing by UsersController#index as
   Rendering users/index.html.erb within layouts/application
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ app/views/users/index.html.erb:15
@@ -1168,14 +1168,14 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms | Allocations: 4257)
 
 
-  
+
 ActionView::Template::Error (Couldn't find User with 'id'=user_id):
     1: <p id="notice"><%= notice %></p>
     2: <p><%= current_user.username %></p>
-    3: 
+    3:
     4: <h1>Users</h1>
-    5: 
-  
+    5:
+
 app/controllers/application_controller.rb:6:in `current_user'
 app/views/users/index.html.erb:2
 Started GET "/" for 127.0.0.1 at 2020-10-20 14:44:24 -0500
@@ -1190,7 +1190,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms | Allocations: 5196)
 
 
-  
+
 ActionView::Template::Error (Couldn't find User with 'id'=user_id):
     4:     <title>Associate</title>
     5:     <%= csrf_meta_tags %>
@@ -1199,7 +1199,7 @@ ActionView::Template::Error (Couldn't find User with 'id'=user_id):
     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
    10:   </head>
-  
+
 app/controllers/application_controller.rb:6:in `current_user'
 app/views/layouts/application.html.erb:7
   [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
@@ -1229,7 +1229,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.8ms | Allocations: 8174)
 
 
-  
+
 ActionView::Template::Error (no implicit conversion of Hash into Integer):
     4:     <title>Associate</title>
     5:     <%= csrf_meta_tags %>
@@ -1238,7 +1238,7 @@ ActionView::Template::Error (no implicit conversion of Hash into Integer):
     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
    10:   </head>
-  
+
 app/controllers/application_controller.rb:6:in `[]'
 app/controllers/application_controller.rb:6:in `current_user'
 app/views/layouts/application.html.erb:7
@@ -1254,7 +1254,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.4ms | Allocations: 89934)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `user' for #<UsersController:0x00007fa9748c3870>
 Did you mean?  @users):
     4:     <title>Associate</title>
@@ -1264,7 +1264,7 @@ Did you mean?  @users):
     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
    10:   </head>
-  
+
 app/controllers/application_controller.rb:6:in `current_user'
 app/views/layouts/application.html.erb:7
 Started GET "/" for 127.0.0.1 at 2020-10-20 14:57:33 -0500
@@ -1284,9 +1284,9 @@ Completed 200 OK in 29ms (Views: 22.0ms | ActiveRecord: 1.0ms | Allocations: 133
 
 Started GET "/login" for 127.0.0.1 at 2020-10-20 14:58:48 -0500
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
-  
+
 ActionController::RoutingError (No route matches [GET] "/login"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -1319,9 +1319,9 @@ puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started GET "/login" for 127.0.0.1 at 2020-10-20 14:59:13 -0500
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
-  
+
 ActionController::RoutingError (No route matches [GET] "/login"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -1354,9 +1354,9 @@ puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started GET "/login" for 127.0.0.1 at 2020-10-20 14:59:36 -0500
   [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
-  
+
 ActionController::RoutingError (No route matches [GET] "/login"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -1403,9 +1403,9 @@ Completed 200 OK in 22ms (Views: 13.1ms | ActiveRecord: 0.5ms | Allocations: 133
 
 
 Started GET "/login" for 127.0.0.1 at 2020-10-20 14:59:58 -0500
-  
+
 ActionController::RoutingError (No route matches [GET] "/login"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -1593,16 +1593,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 212ms (ActiveRecord: 0.4ms | Allocations: 136102)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `new' for #<#<Class:0x00007f582001f0e8>:0x00007f582001d838>
 Did you mean?  next):
-    12: 
+    12:
     13:   <body>
     14:     <%= yield %>
     15:     <%= link_to 'log out', method: :destroy, render: new %>
     16:   </body>
     17: </html>
-  
+
 app/views/layouts/application.html.erb:15
 Started GET "/?method=destroy" for 127.0.0.1 at 2020-10-20 15:04:51 -0500
 Processing by UsersController#index as HTML
@@ -1820,16 +1820,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 199ms (ActiveRecord: 0.2ms | Allocations: 136051)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `logins' for #<#<Class:0x00007f5c40a9bb10>:0x00007f5c40a9a260>
 Did you mean?  logins_url):
-    12: 
+    12:
     13:   <body>
     14:     <%= yield %>
     15:     <%= link_to 'log out', method: :destroy, render: logins %>
     16:   </body>
     17: </html>
-  
+
 app/views/layouts/application.html.erb:15
 DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
  (called from block in execute at /usr/share/rubygems-integration/all/gems/rake-13.0.1/lib/rake/task.rb:281)
@@ -1853,9 +1853,9 @@ Completed 200 OK in 28ms (Views: 20.3ms | ActiveRecord: 0.8ms | Allocations: 135
 
 
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-20 15:25:19 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -1887,9 +1887,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-20 15:26:15 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -1952,16 +1952,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 3075)
 
 
-  
+
 ActionView::Template::Error (undefined method `username' for nil:NilClass):
     4:     <title>Associate</title>
     5:     <%= csrf_meta_tags %>
     6:     <%= csp_meta_tag %>
     7:     <p><%= current_user.username %></p>
-    8: 
+    8:
     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  
+
 app/views/layouts/application.html.erb:7
 Started GET "/" for 127.0.0.1 at 2020-10-20 15:27:14 -0500
 Processing by UsersController#index as HTML
@@ -2002,7 +2002,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms | Allocations: 3463)
 
 
-  
+
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
 <html>
   <head>
@@ -2032,7 +2032,7 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 4:        <title>Associate</title>
 5:        <%= csrf_meta_tags %>
 6:        <%= csp_meta_tag %>
-7:    
+7:
 8:        <%= if !current_user.nil? %>
 9:          <p><%= current_user.username %></p>
 10:        <% else %>
@@ -2041,13 +2041,13 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 13:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 14:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 15:      </head>
-16:    
+16:
 17:      <body>
 18:        <%= yield %>
 19:        <%= link_to 'log out', logout_path, method: "delete" %>
 20:      </body>
 21:    </html>
-  
+
 app/views/layouts/application.html.erb:8: syntax error, unexpected ')', expecting `then' or ';' or '\n'
 app/views/layouts/application.html.erb:10: syntax error, unexpected `else', expecting ')'
 app/views/layouts/application.html.erb:12: syntax error, unexpected `end', expecting ')'
@@ -2152,7 +2152,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 523ms (ActiveRecord: 4.4ms | Allocations: 18775)
 
 
-  
+
 ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/projects/associations/tmp/cache/assets/sprockets/v4.0.0/ki/ki6iEPbQ9bsi2WxRIjB6nDABeBESdxJYkAqzjOsmi8w.cache.16980.4732.996103, C:/projects/associations/tmp/cache/assets/sprockets/v4.0.0/ki/ki6iEPbQ9bsi2WxRIjB6nDABeBESdxJYkAqzjOsmi8w.cache)):
     10:     <% else %>
     11:       <p>You are not logged In</p>
@@ -2160,8 +2160,8 @@ ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/projects
     13:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     14:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     15:   </head>
-    16: 
-  
+    16:
+
 app/views/layouts/application.html.erb:13
 [Webpacker] Compiling...
 [Webpacker] Compiled all packs in C:/projects/associations/public/packs
@@ -2172,7 +2172,7 @@ Built at: 10/21/2020 12:48:07 AM
                                      Asset       Size       Chunks                         Chunk Names
     js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
 js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
-                             manifest.json  364 bytes               [emitted]              
+                             manifest.json  364 bytes               [emitted]
 Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
 [./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
 [./app/javascript/channels/index.js] 211 bytes {application} [built]
@@ -2371,7 +2371,7 @@ Built at: 10/21/2020 11:08:02 AM
                                      Asset       Size       Chunks                         Chunk Names
     js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
 js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
-                             manifest.json  364 bytes               [emitted]              
+                             manifest.json  364 bytes               [emitted]
 Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
 [./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
 [./app/javascript/channels/index.js] 211 bytes {application} [built]
@@ -2523,7 +2523,7 @@ Processing by EventsController#new as HTML
 Completed 500 Internal Server Error in 204ms (ActiveRecord: 1.1ms | Allocations: 149919)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x00007ff0c80c1f78>:0x00007ff0c80c06a0>
 Did you mean?  for
                fork):
@@ -2532,9 +2532,9 @@ Did you mean?  for
      9:     <%= f.input :date %>
     10:     <%= form.hidden_field :creator_id, :value => current_user.id %>
     11:   </div>
-    12: 
+    12:
     13:   <div class="form-actions">
-  
+
 app/views/events/_form.html.erb:10
 app/views/events/_form.html.erb:2
 app/views/events/new.html.erb:3
@@ -2774,9 +2774,9 @@ Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.3ms | Allocations: 5186)
 
 
 Started GET "/eve" for 127.0.0.1 at 2020-10-21 11:26:48 -0500
-  
+
 ActionController::RoutingError (No route matches [GET] "/eve"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -2863,9 +2863,9 @@ Completed 200 OK in 31ms (Views: 22.2ms | ActiveRecord: 0.8ms | Allocations: 156
 
 
 Started POST "/logout" for 127.0.0.1 at 2020-10-21 11:28:14 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logout"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -2897,9 +2897,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logout" for 127.0.0.1 at 2020-10-21 11:29:15 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logout"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -2933,9 +2933,9 @@ puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logout" for 127.0.0.1 at 2020-10-21 11:29:41 -0500
   [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  
+
 ActionController::RoutingError (No route matches [POST] "/logout"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -2967,9 +2967,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logout" for 127.0.0.1 at 2020-10-21 11:29:49 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logout"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -3015,16 +3015,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 214ms (ActiveRecord: 1.1ms | Allocations: 141835)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `logout_path' for #<#<Class:0x000055ba5befb648>:0x000055ba5bf83ac0>
 Did you mean?  root_path):
-    16: 
+    16:
     17:   <body>
     18:     <%= yield %>
     19:     <%= link_to 'log out', logout_path, method: "delete" %>
     20:   </body>
     21: </html>
-  
+
 app/views/layouts/application.html.erb:19
 DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
  (called from block in execute at /usr/share/rubygems-integration/all/gems/rake-13.0.1/lib/rake/task.rb:281)
@@ -3044,9 +3044,9 @@ Completed 200 OK in 32ms (Views: 24.5ms | ActiveRecord: 0.8ms | Allocations: 149
 
 
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 11:32:59 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -3078,9 +3078,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 11:33:18 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -3114,9 +3114,9 @@ puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 11:37:26 -0500
   [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -3148,9 +3148,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 11:37:55 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -3182,9 +3182,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 11:38:05 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -3228,16 +3228,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 212ms (ActiveRecord: 0.8ms | Allocations: 139708)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `logout_path' for #<#<Class:0x00007f6d900918c0>:0x00007f6d90087ed8>
 Did you mean?  root_path):
-    16: 
+    16:
     17:   <body>
     18:     <%= yield %>
     19:     <%= link_to 'log out', logout_path, method: "delete" %>
     20:   </body>
     21: </html>
-  
+
 app/views/layouts/application.html.erb:19
 Started GET "/" for 127.0.0.1 at 2020-10-21 11:38:41 -0500
   [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
@@ -3580,9 +3580,9 @@ Processing by LoginsController#create as HTML
 Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms | Allocations: 3290)
 
 
-  
+
 NoMethodError (undefined method `user_id' for #<User:0x0000557e41a4fd98>):
-  
+
 app/controllers/logins_controller.rb:6:in `create'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 12:00:16 -0500
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
@@ -3658,9 +3658,9 @@ Processing by LoginsController#create as HTML
 Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 658)
 
 
-  
+
 ArgumentError (wrong number of arguments (given 2, expected 1)):
-  
+
 app/controllers/logins_controller.rb:4:in `create'
   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
@@ -3684,16 +3684,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms | Allocations: 2732)
 
 
-  
+
 ActionView::Template::Error (Unsupported argument type: 1 (Integer)):
      5:     <%= csrf_meta_tags %>
      6:     <%= csp_meta_tag %>
-     7: 
+     7:
      8:     <% if !current_user.nil? %>
      9:       <p><%= current_user.username %></p>
     10:     <% else %>
     11:       <p>You are not logged In</p>
-  
+
 app/controllers/application_controller.rb:6:in `current_user'
 app/views/layouts/application.html.erb:8
 Started GET "/" for 127.0.0.1 at 2020-10-21 12:05:49 -0500
@@ -3823,7 +3823,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms | Allocations: 3607)
 
 
-  
+
 ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
 <html>
   <head>
@@ -3853,7 +3853,7 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 4:        <title>Associate</title>
 5:        <%= csrf_meta_tags %>
 6:        <%= csp_meta_tag %>
-7:    
+7:
 8:        <% if !current_user.nil? %>
 9:          <p><%= current_user.username %></p>
 10:        <% else %>
@@ -3862,13 +3862,13 @@ ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering te
 13:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 14:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 15:      </head>
-16:    
+16:
 17:      <body>
 18:        <%= yield %>
 19:        <%= link_to 'log out', logout_path, :method :destroy %>
 20:      </body>
 21:    </html>
-  
+
 app/views/layouts/application.html.erb:19: syntax error, unexpected ':', expecting ')'
 app/views/layouts/application.html.erb:19: syntax error, unexpected ':', expecting ')'
 app/views/layouts/application.html.erb:19: syntax error, unexpected ':', expecting ')'
@@ -3891,9 +3891,9 @@ Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.5ms | Allocations: 721
 
 
 Started POST "/logout" for 127.0.0.1 at 2020-10-21 12:12:40 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logout"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -3925,9 +3925,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logout" for 127.0.0.1 at 2020-10-21 12:17:00 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logout"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -3976,9 +3976,9 @@ Completed 200 OK in 19ms (Views: 14.3ms | ActiveRecord: 0.6ms | Allocations: 163
 
 
 Started DELETE "/" for 127.0.0.1 at 2020-10-21 12:17:15 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -4012,9 +4012,9 @@ puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
  (called from block in execute at /usr/share/rubygems-integration/all/gems/rake-13.0.1/lib/rake/task.rb:281)
 Started DELETE "/" for 127.0.0.1 at 2020-10-21 12:19:44 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -4060,15 +4060,15 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms | Allocations: 8476)
 
 
-  
+
 ActionView::Template::Error (undefined method `id' for nil:NilClass):
-    16: 
+    16:
     17:   <body>
     18:     <%= yield %>
     19:     <%= link_to 'log out', logout_path(@current_user.id), method: :delete %>
     20:   </body>
     21: </html>
-  
+
 app/views/layouts/application.html.erb:19
 Started GET "/" for 127.0.0.1 at 2020-10-21 12:20:13 -0500
 Processing by UsersController#index as HTML
@@ -4225,7 +4225,7 @@ Completed 200 OK in 17ms (Views: 11.3ms | ActiveRecord: 0.4ms | Allocations: 600
 
 
 Started DELETE "/logout.1" for 127.0.0.1 at 2020-10-21 12:21:49 -0500
-Processing by LoginsController#destroy as 
+Processing by LoginsController#destroy as
   Parameters: {"authenticity_token"=>"eXrb55eLdFuPpyY+1DA06DsfLijFecKYPo7mTs2imeCOc2wzY0FiKFHbgrkBPyIa1BeE3dhWqlQ0h/cY6WS3iA=="}
 Redirected to http://localhost:3000/
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 368)
@@ -4277,7 +4277,7 @@ Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.3ms | Allocations: 6809)
 Started DELETE "/logout.1" for 127.0.0.1 at 2020-10-21 12:43:34 -0500
   [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-Processing by LoginsController#destroy as 
+Processing by LoginsController#destroy as
   Parameters: {"authenticity_token"=>"rzNJGGAUyv9rezO2Mg/909qtxfhhzeRwMIlQiFO7ngOWPpXMGLzOvMUDtZRqTp0H3mGxGAnJRQBMh1vC0z7ktw=="}
 Redirected to http://localhost:3000/
 Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 534)
@@ -4341,16 +4341,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 151ms (ActiveRecord: 0.1ms | Allocations: 135743)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `logout' for #<#<Class:0x00007fa1c001d470>:0x00007fa1c0023b90>
 Did you mean?  logout_url):
-    16: 
+    16:
     17:   <body>
     18:     <%= yield %>
     19:     <%= link_to 'log out', logout, method: :delete %>
     20:   </body>
     21: </html>
-  
+
 app/views/layouts/application.html.erb:19
 Started GET "/" for 127.0.0.1 at 2020-10-21 12:47:03 -0500
 Processing by UsersController#index as HTML
@@ -4552,16 +4552,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 252ms (ActiveRecord: 1.5ms | Allocations: 141198)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `login' for #<#<Class:0x0000563f66b685b8>:0x0000563f66b48538>
 Did you mean?  login_url):
-    16: 
+    16:
     17:   <body>
     18:     <%= yield %>
     19:     <%= link_to 'log out', login, method: :delete %>
     20:   </body>
     21: </html>
-  
+
 app/views/layouts/application.html.erb:19
 Started GET "/" for 127.0.0.1 at 2020-10-21 13:00:48 -0500
 Processing by UsersController#index as HTML
@@ -4578,15 +4578,15 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms | Allocations: 8015)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"show", :controller=>"logins", :path_prefix=>"/:username"}, missing required keys: [:id]):
-    16: 
+    16:
     17:   <body>
     18:     <%= yield %>
     19:     <%= link_to 'log out', login_path, method: :delete %>
     20:   </body>
     21: </html>
-  
+
 app/views/layouts/application.html.erb:19
 Started GET "/" for 127.0.0.1 at 2020-10-21 13:01:36 -0500
 Processing by UsersController#index as HTML
@@ -4623,15 +4623,15 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms | Allocations: 5811)
 
 
-  
+
 ActionView::Template::Error (undefined method `id' for nil:NilClass):
-    16: 
+    16:
     17:   <body>
     18:     <%= yield %>
     19:     <%= link_to 'log out', login_path(current_user.id), method: :delete %>
     20:   </body>
     21: </html>
-  
+
 app/views/layouts/application.html.erb:19
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 13:01:53 -0500
 Processing by LoginsController#create as HTML
@@ -4677,15 +4677,15 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms | Allocations: 5778)
 
 
-  
+
 ActionView::Template::Error (undefined method `id' for nil:NilClass):
-    16: 
+    16:
     17:   <body>
     18:     <%= yield %>
     19:     <%= link_to 'log out', login_path(current_user.id), method: :delete %>
     20:   </body>
     21: </html>
-  
+
 app/views/layouts/application.html.erb:19
 Started GET "/" for 127.0.0.1 at 2020-10-21 13:02:16 -0500
 Processing by UsersController#index as HTML
@@ -4698,15 +4698,15 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms | Allocations: 6566)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"show", :controller=>"logins", :id=>nil}, missing required keys: [:id]):
-    16: 
+    16:
     17:   <body>
     18:     <%= yield %>
     19:     <%= link_to 'log out', login_path(session[:user_id]), method: :delete %>
     20:   </body>
     21: </html>
-  
+
 app/views/layouts/application.html.erb:19
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 13:02:58 -0500
 Processing by LoginsController#create as HTML
@@ -4750,15 +4750,15 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.3ms | Allocations: 5319)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"show", :controller=>"logins", :id=>nil}, missing required keys: [:id]):
-    16: 
+    16:
     17:   <body>
     18:     <%= yield %>
     19:     <%= link_to 'log out', login_path(session[:user_id]), method: :delete %>
     20:   </body>
     21: </html>
-  
+
 app/views/layouts/application.html.erb:19
 Started GET "/" for 127.0.0.1 at 2020-10-21 13:03:35 -0500
 Processing by UsersController#index as HTML
@@ -4770,7 +4770,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms | Allocations: 3692)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"show", :controller=>"logins", :path_prefix=>"/:username"}, missing required keys: [:id]):
     4:     <title>Associate</title>
     5:     <%= csrf_meta_tags %>
@@ -4779,7 +4779,7 @@ ActionView::Template::Error (No route matches {:action=>"show", :controller=>"lo
     8:     <% if current_user %>
     9:       <p><%= current_user.username %></p>
    10:     <% else %>
-  
+
 app/views/layouts/application.html.erb:7
 Started GET "/" for 127.0.0.1 at 2020-10-21 13:04:00 -0500
 Processing by UsersController#index as HTML
@@ -4792,16 +4792,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.3ms | Allocations: 6572)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"show", :controller=>"logins", :path_prefix=>"/:username"}, missing required keys: [:id]):
     14:   </head>
-    15: 
+    15:
     16:   <body>
     17:     <%= link_to 'log out', login_path, method: :delete %>
     18:     <%= yield %>
     19:   </body>
     20: </html>
-  
+
 app/views/layouts/application.html.erb:17
 Started GET "/" for 127.0.0.1 at 2020-10-21 13:04:44 -0500
 Processing by UsersController#index as HTML
@@ -4814,16 +4814,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms | Allocations: 7036)
 
 
-  
+
 ActionView::Template::Error (undefined method `id' for nil:NilClass):
     14:   </head>
-    15: 
+    15:
     16:   <body>
     17:     <%= link_to 'log out', login_path(current_user.id), method: :delete %>
     18:     <%= yield %>
     19:   </body>
     20: </html>
-  
+
 app/views/layouts/application.html.erb:17
 Started GET "/login" for 127.0.0.1 at 2020-10-21 13:04:59 -0500
 Processing by LoginsController#new as HTML
@@ -4833,16 +4833,16 @@ Processing by LoginsController#new as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 5862)
 
 
-  
+
 ActionView::Template::Error (undefined method `id' for nil:NilClass):
     14:   </head>
-    15: 
+    15:
     16:   <body>
     17:     <%= link_to 'log out', login_path(current_user.id), method: :delete %>
     18:     <%= yield %>
     19:   </body>
     20: </html>
-  
+
 app/views/layouts/application.html.erb:17
 Started GET "/login" for 127.0.0.1 at 2020-10-21 13:05:20 -0500
 Processing by LoginsController#new as HTML
@@ -4852,15 +4852,15 @@ Processing by LoginsController#new as HTML
 Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 6255)
 
 
-  
+
 ActionView::Template::Error (undefined method `id' for nil:NilClass):
-    15: 
+    15:
     16:   <body>
     17:     <%= yield %>
     18:     <%= link_to 'log out', login_path(current_user.id), method: :delete %>
     19:   </body>
     20: </html>
-  
+
 app/views/layouts/application.html.erb:18
 Started GET "/login" for 127.0.0.1 at 2020-10-21 13:05:54 -0500
 Processing by LoginsController#new as HTML
@@ -4974,9 +4974,9 @@ Processing by UsersController#show as HTML
 Completed 404 Not Found in 13ms (ActiveRecord: 0.2ms | Allocations: 4829)
 
 
-  
+
 ActiveRecord::RecordNotFound (Couldn't find User with 'id'=sign_in):
-  
+
 app/controllers/users_controller.rb:67:in `set_user'
 Started GET "/login" for 127.0.0.1 at 2020-10-21 13:08:02 -0500
 Processing by LoginsController#new as HTML
@@ -5272,7 +5272,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 136ms (ActiveRecord: 1.1ms | Allocations: 73908)
 
 
-  
+
 ActionView::Template::Error (undefined method `login_path' for #<#<Class:0x0000555bdd2b4fb0>:0x0000555bdd334490>
 Did you mean?  logins_path):
      6:     <%= csp_meta_tag %>
@@ -5282,7 +5282,7 @@ Did you mean?  logins_path):
     10:     <% else %>
     11:       <p>You are not logged In</p>
     12:     <% end %>
-  
+
 app/views/layouts/application.html.erb:9
 Started GET "/" for 127.0.0.1 at 2020-10-21 14:12:42 -0500
 Processing by UsersController#index as HTML
@@ -5298,7 +5298,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 198ms (ActiveRecord: 0.5ms | Allocations: 128005)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `login_path' for #<#<Class:0x00007f4450cb49b8>:0x00007f4450c9ef78>
 Did you mean?  logins_path):
      6:     <%= csp_meta_tag %>
@@ -5308,7 +5308,7 @@ Did you mean?  logins_path):
     10:     <% else %>
     11:       <p>You are not logged In</p>
     12:     <% end %>
-  
+
 app/views/layouts/application.html.erb:9
 Started GET "/" for 127.0.0.1 at 2020-10-21 14:13:00 -0500
 Processing by UsersController#index as HTML
@@ -5326,9 +5326,9 @@ Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.3ms | Allocations: 999
 
 
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 14:13:02 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5360,9 +5360,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 14:13:40 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5411,9 +5411,9 @@ Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.2ms | Allocations: 7860)
 
 
 Started DELETE "/logins.1" for 127.0.0.1 at 2020-10-21 14:14:29 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins.1"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5445,9 +5445,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins.1" for 127.0.0.1 at 2020-10-21 14:14:57 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins.1"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5479,9 +5479,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins.1" for 127.0.0.1 at 2020-10-21 14:15:01 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins.1"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5513,9 +5513,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins.1" for 127.0.0.1 at 2020-10-21 14:15:15 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins.1"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5547,9 +5547,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins.1" for 127.0.0.1 at 2020-10-21 14:15:25 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins.1"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5596,7 +5596,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 59ms (ActiveRecord: 1.4ms | Allocations: 11791)
 
 
-  
+
 ActionView::Template::Error (undefined method `id' for nil:NilClass):
      6:     <%= csp_meta_tag %>
      7:     <% if current_user %>
@@ -5605,7 +5605,7 @@ ActionView::Template::Error (undefined method `id' for nil:NilClass):
     10:     <% else %>
     11:       <p>You are not logged In</p>
     12:     <% end %>
-  
+
 app/views/layouts/application.html.erb:9
 Started GET "/" for 127.0.0.1 at 2020-10-21 14:16:01 -0500
 Processing by UsersController#index as HTML
@@ -5623,9 +5623,9 @@ Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.3ms | Allocations: 100
 
 
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 14:16:03 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5657,9 +5657,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 14:16:40 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5706,9 +5706,9 @@ Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.5ms | Allocations: 723
 
 
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:16:47 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5742,9 +5742,9 @@ puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:19:49 -0500
   [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5776,9 +5776,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:19:52 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5825,9 +5825,9 @@ Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 0.8ms | Allocations: 145
 
 
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:19:56 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5859,9 +5859,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:20:11 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5908,9 +5908,9 @@ Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.3ms | Allocations: 7217)
 
 
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 14:20:16 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -5942,9 +5942,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started DELETE "/logins" for 127.0.0.1 at 2020-10-21 14:20:40 -0500
-  
+
 ActionController::RoutingError (No route matches [DELETE] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6010,9 +6010,9 @@ Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.1ms | Allocations: 4574)
 
 
 Started GET "/login" for 127.0.0.1 at 2020-10-21 14:21:10 -0500
-  
+
 ActionController::RoutingError (No route matches [GET] "/login"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6052,9 +6052,9 @@ Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 452
 
 
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:21:58 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6087,9 +6087,9 @@ puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:22:58 -0500
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6121,9 +6121,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:23:03 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6157,9 +6157,9 @@ puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:23:15 -0500
   [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6192,9 +6192,9 @@ puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:23:30 -0500
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6226,9 +6226,9 @@ puma (4.3.6) lib/puma/server.rb:472:in `process_client'
 puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:23:32 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6332,9 +6332,9 @@ Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.1ms | Allocations: 4465)
 
 
 Started GET "/logins" for 127.0.0.1 at 2020-10-21 14:24:42 -0500
-  
+
 AbstractController::ActionNotFound (The action 'index' could not be found for LoginsController):
-  
+
 actionpack (6.0.3.4) lib/abstract_controller/base.rb:131:in `process'
 actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
 actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
@@ -6562,9 +6562,9 @@ Processing by LoginsController#create as HTML
 Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 671)
 
 
-  
+
 ActionController::ParameterMissing (param is missing or the value is empty: user):
-  
+
 app/controllers/logins_controller.rb:21:in `logins_params'
 app/controllers/logins_controller.rb:4:in `create'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:28:44 -0500
@@ -6574,17 +6574,17 @@ Processing by LoginsController#create as HTML
 Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 1358)
 
 
-  
+
 ActionController::ParameterMissing (param is missing or the value is empty: logins):
-  
+
 app/controllers/logins_controller.rb:21:in `logins_params'
 app/controllers/logins_controller.rb:4:in `create'
 Started GET "/logins" for 127.0.0.1 at 2020-10-21 14:31:52 -0500
   [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  
+
 AbstractController::ActionNotFound (The action 'index' could not be found for LoginsController):
-  
+
 actionpack (6.0.3.4) lib/abstract_controller/base.rb:131:in `process'
 actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
 actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
@@ -6641,9 +6641,9 @@ puma (4.3.6) lib/puma/server.rb:328:in `block in run'
 puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:33:36 -0500
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6686,9 +6686,9 @@ Completed 200 OK in 43ms (Views: 36.6ms | ActiveRecord: 0.0ms | Allocations: 951
 
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:35:09 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6722,9 +6722,9 @@ puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
  (called from block in execute at /usr/share/rubygems-integration/all/gems/rake-13.0.1/lib/rake/task.rb:281)
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:37:12 -0500
-  
+
 ActionController::RoutingError (No route matches [POST] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -6765,7 +6765,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 225ms (ActiveRecord: 0.9ms | Allocations: 132077)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `new_logins_path' for #<#<Class:0x00007f441001c970>:0x00007f441001adf0>
 Did you mean?  new_user_path):
      9:       <%= link_to 'log out', logins_path, method: :delete %>
@@ -6775,12 +6775,12 @@ Did you mean?  new_user_path):
     13:     <% end %>
     14:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     15:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  
+
 app/views/layouts/application.html.erb:12
 Started GET "/" for 127.0.0.1 at 2020-10-21 14:40:31 -0500
-  
+
 ArgumentError ('Logins' is not a supported controller name. This can lead to potential routing problems. See https://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
-  
+
 config/routes.rb:4:in `block in <main>'
 config/routes.rb:1:in `<main>'
 Started GET "/" for 127.0.0.1 at 2020-10-21 14:40:39 -0500
@@ -6794,7 +6794,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 227ms (ActiveRecord: 1.5ms | Allocations: 130497)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `new_logins_path' for #<#<Class:0x00007f4404130bd8>:0x00007f440412b250>
 Did you mean?  new_login_path):
      9:       <%= link_to 'log out', logins_path, method: :delete %>
@@ -6804,7 +6804,7 @@ Did you mean?  new_login_path):
     13:     <% end %>
     14:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     15:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  
+
 app/views/layouts/application.html.erb:12
 Started GET "/" for 127.0.0.1 at 2020-10-21 14:41:01 -0500
 Processing by UsersController#index as HTML
@@ -6831,9 +6831,9 @@ Processing by LoginsController#create as HTML
 Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 706)
 
 
-  
+
 ActionController::ParameterMissing (param is missing or the value is empty: username):
-  
+
 app/controllers/logins_controller.rb:21:in `logins_params'
 app/controllers/logins_controller.rb:4:in `create'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:41:37 -0500
@@ -6842,9 +6842,9 @@ Processing by LoginsController#create as HTML
 Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 690)
 
 
-  
+
 ActionController::ParameterMissing (param is missing or the value is empty: username):
-  
+
 app/controllers/logins_controller.rb:21:in `logins_params'
 app/controllers/logins_controller.rb:4:in `create'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:41:40 -0500
@@ -6853,9 +6853,9 @@ Processing by LoginsController#create as HTML
 Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 690)
 
 
-  
+
 ActionController::ParameterMissing (param is missing or the value is empty: username):
-  
+
 app/controllers/logins_controller.rb:21:in `logins_params'
 app/controllers/logins_controller.rb:4:in `create'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:42:14 -0500
@@ -6864,9 +6864,9 @@ Processing by LoginsController#create as HTML
 Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 690)
 
 
-  
+
 ActionController::ParameterMissing (param is missing or the value is empty: username):
-  
+
 app/controllers/logins_controller.rb:21:in `logins_params'
 app/controllers/logins_controller.rb:4:in `create'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:43:24 -0500
@@ -6875,9 +6875,9 @@ Processing by LoginsController#create as HTML
 Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 690)
 
 
-  
+
 ActionController::ParameterMissing (param is missing or the value is empty: username):
-  
+
 app/controllers/logins_controller.rb:21:in `logins_params'
 app/controllers/logins_controller.rb:4:in `create'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:44:55 -0500
@@ -6887,9 +6887,9 @@ Processing by LoginsController#create as HTML
 Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 1362)
 
 
-  
+
 ActionController::ParameterMissing (param is missing or the value is empty: user):
-  
+
 app/controllers/logins_controller.rb:21:in `logins_params'
 app/controllers/logins_controller.rb:4:in `create'
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 14:45:32 -0500
@@ -6899,9 +6899,9 @@ Processing by LoginsController#create as HTML
 Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 1361)
 
 
-  
+
 ActionController::ParameterMissing (param is missing or the value is empty: username):
-  
+
 app/controllers/logins_controller.rb:21:in `logins_params'
 app/controllers/logins_controller.rb:4:in `create'
 Started GET "/" for 127.0.0.1 at 2020-10-21 14:45:38 -0500
@@ -6942,9 +6942,9 @@ Processing by LoginsController#create as HTML
 Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1871)
 
 
-  
+
 NoMethodError (undefined method `permit' for "Balerum03":String):
-  
+
 app/controllers/logins_controller.rb:21:in `logins_params'
 app/controllers/logins_controller.rb:4:in `create'
   [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
@@ -6961,16 +6961,16 @@ Processing by LoginsController#create as HTML
 Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.3ms | Allocations: 3373)
 
 
-  
+
 ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: Balerum03):
-  
+
 app/controllers/logins_controller.rb:4:in `create'
 Started GET "/logins" for 127.0.0.1 at 2020-10-21 15:06:32 -0500
   [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
-  
+
 ActionController::RoutingError (No route matches [GET] "/logins"):
-  
+
 actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
 web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
 web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
@@ -7044,7 +7044,7 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.6ms | Allocations: 6452)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"destroy", :controller=>"logins", :path_prefix=>"/:username"}, missing required keys: [:id]):
     11:   <body>
     12:     <% if current_user %>
@@ -7053,7 +7053,7 @@ ActionView::Template::Error (No route matches {:action=>"destroy", :controller=>
     15:     <% else %>
     16:       <p>You are not logged In</p>
     17:       <%= link_to 'Log in', new_login_path %>
-  
+
 app/views/layouts/application.html.erb:14
 Started GET "/" for 127.0.0.1 at 2020-10-21 15:08:04 -0500
 Processing by UsersController#index as HTML
@@ -7270,17 +7270,17 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 250ms (ActiveRecord: 1.4ms | Allocations: 133812)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x00007f5a0ca63700>:0x00007f5a0ca61e00>
 Did you mean?  current_page?):
      9:   </head>
-    10: 
+    10:
     11:   <body>
     12:     <% if current_user %>
     13:       <p><%= current_user.username %></p>
     14:       <%= link_to 'log out', login_path(current_user.id), method: :delete %>
     15:     <% else %>
-  
+
 app/views/layouts/application.html.erb:12
 Started GET "/" for 127.0.0.1 at 2020-10-21 15:11:15 -0500
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
@@ -7334,16 +7334,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms | Allocations: 5958)
 
 
-  
+
 ActionView::Template::Error (undefined method `username' for 5:Integer):
      9:   </head>
-    10: 
+    10:
     11:   <body>
     12:     <% if current_user %>
     13:       <p><%= current_user.username %></p>
     14:       <%= link_to 'log out', login_path(current_user.id), method: :delete %>
     15:     <% else %>
-  
+
 app/controllers/application_controller.rb:6:in `current_user'
 app/views/layouts/application.html.erb:12
 Started POST "/logins" for 127.0.0.1 at 2020-10-21 15:13:09 -0500
@@ -7367,16 +7367,16 @@ Processing by UsersController#index as HTML
 Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.3ms | Allocations: 5361)
 
 
-  
+
 ActionView::Template::Error (Unsupported argument type: 5 (Integer)):
      9:   </head>
-    10: 
+    10:
     11:   <body>
     12:     <% if current_user %>
     13:       <p><%= current_user.username %></p>
     14:       <%= link_to 'log out', login_path(current_user.id), method: :delete %>
     15:     <% else %>
-  
+
 app/controllers/application_controller.rb:6:in `current_user'
 app/views/layouts/application.html.erb:12
 Started GET "/" for 127.0.0.1 at 2020-10-21 15:13:24 -0500
@@ -7553,5 +7553,3 @@ Processing by UsersController#index as HTML
   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
   ↳ app/controllers/application_controller.rb:6:in `current_user'
 Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.5ms | Allocations: 5078)
-
-
