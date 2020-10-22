@@ -13,10 +13,9 @@
   <body>
     <% if current_user %>
       <p><%= current_user.username %></p>
-      <%= link_to 'log out', login_path(current_user.id), method: :delete %>
     <% else %>
       <p>You are not logged In</p>
-      <%= link_to 'Log in', new_login_path %>
+      <%= link_to 'Log in', '/login' %>
     <% end %>
     <%= yield %>
   </body>
