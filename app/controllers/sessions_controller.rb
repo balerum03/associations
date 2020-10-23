@@ -5,9 +5,9 @@ class SessionsController < ApplicationController
   end
 
   def create
-   @user = User.find_by(params[:username])
-   if @user
-      session[:user_id] = @user.id
+   @user = User.where(username: params[:username])
+   if @user.empty? == false
+      session[:user_id] = @user[0].id
       redirect_to '/welcome'
    else
       redirect_to '/login'
