@@ -1,14 +1,21 @@
 <p id="notice"><%= notice %></p>
+<div>
+  <p>
+    <strong>Username:</strong>
+    <%= @user.username %>
+  </p>
 
-<p>
-  <strong>Username:</strong>
-  <%= @user.username %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @user.email %>
-</p>
-
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+  <p>
+    <strong>Email:</strong>
+    <%= @user.email %>
+  </p>
+  <%= link_to 'Edit', edit_user_path(@user) %> |
+  <%= link_to 'Home', root_path %>
+</div>
+<h2> This are your events </h2>
+<% @user.own_events.each do |e| %>
+  <p><%= e.title %></p>
+  <p><%= e.body %></p>
+  <p><%= e.date %></p>
+<% end %>
+<%= link_to 'Events', events_path %>
