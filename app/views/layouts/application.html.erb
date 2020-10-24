@@ -11,8 +11,10 @@
   </head>
 
   <body>
-    <% if current_user %>
+    <% if logged_in? %>
       <p><%= current_user.username %></p>
+      <br/>
+      <%= link_to 'Log Out', logout_path, method: :delete %>
     <% else %>
       <p>You are not logged In</p>
       <%= link_to 'Log in', '/login' %>
