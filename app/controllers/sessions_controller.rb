@@ -1,24 +1,19 @@
 class SessionsController < ApplicationController
-
-  def new
-
-  end
+  def new; end
 
   def create
-   @user = User.where(username: params[:username])
-   if @user.empty? == false
+    @user = User.where(username: params[:username])
+    if @user.empty? == false
       session[:user_id] = @user[0].id
       redirect_to root_path
-   else
+    else
       redirect_to '/login'
-   end
+    end
   end
 
-  def login
-  end
+  def login; end
 
-  def welcome
-  end
+  def welcome; end
 
   def destroy
     session.destroy
