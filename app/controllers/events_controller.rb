@@ -21,6 +21,13 @@ class EventsController < ApplicationController
   def edit
   end
 
+  def attending
+    set_event
+    @attendee = Attendance.new
+    @attendee.event_id = @event.id
+    @attendee.user_id = current_user.id
+    @attendee.save
+  end
   # POST /events
   # POST /events.json
   def create
@@ -69,6 +76,6 @@ class EventsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def event_params
-      params.require(:event).permit(:title, :body, :date, :creator_id)
+      params.require(:event).permit(:title, :body, :date, :creator_id, :id)
     end
 end
