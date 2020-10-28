@@ -1,15 +1,23 @@
 class EventsController < ApplicationController
   before_action :set_event, only: [:show, :edit, :update, :destroy]
-
+  before_action :user_login, except: %I[index show]
   # GET /events
   # GET /events.json
   def index
     @events = Event.all
+    @users = User.all
+    @today = Event.today
+    @upcoming = Event.upcoming
+    @previous = Event.previous
   end
 
   # GET /events/1
   # GET /events/1.json
   def show
+    set_event
+    @users = User.all
+    @user = User.find(@event.creator.id)
+    @attendees = Attendance.where(event_id: @event.id)
   end
 
   # GET /events/new
@@ -76,6 +84,10 @@ class EventsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def event_params
-      params.require(:event).permit(:title, :body, :date, :creator_id, :id)
+      params.require(:event).permit(:title, :body, :date, :datetime, :creator_id, :id)
+    end
+
+    def user_login
+      redirect_to login_path if current_user.nil?
     end
 end

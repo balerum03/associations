@@ -17,6 +17,23 @@
 <p>
   <strong>Atendees</strong>
 </p>
-<%= link_to 'Attend', attendee_path(@event.id), method: :attending %>
+
+<p>
+  <strong>Number of Attendees:</strong>
+  <%= @attendees.where(event_id: @event.id).count %><br><br>
+  <strong>Attendees:</strong>
+  <ol>
+    <% @attendees.where(event_id: @event.id).each do |i|%>
+      <li>
+       <p>User Name: <%= @users.find(i.user_id).username %> <br/></p>
+      	<p>Email: <%= @users.find(i.user_id).email %></p>
+      </li>
+    <% end %>
+  </ol>
+</p>
+
+<h2>Upcoming Events</h2>
+
+<%= link_to 'Attend', attendee_path(@event), method: :post, confirm: 'really?' %> |
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>
