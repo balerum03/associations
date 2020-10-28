@@ -5,5 +5,5 @@ class User < ApplicationRecord
 
   scope :previous, -> { where('date < ?', Date.today) }
   scope :upcoming, -> { where('date > ?', Date.today) }
-  scope :today, -> { where('date = ?', Date.today) }
+  scope :today, -> { where('date == ?', Date.today) }
 end

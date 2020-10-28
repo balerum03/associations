@@ -12,10 +12,18 @@
   <%= link_to 'Edit', edit_user_path(@user) %> |
   <%= link_to 'Home', root_path %>
 </div>
-<h2> This are your events </h2>
+<h2> This are <%= @user.username %>'s events </h2>
 <% @user.own_events.each do |e| %>
   <p><%= e.title %></p>
   <p><%= e.body %></p>
   <p><%= e.date %></p>
 <% end %>
+
+<h2>Today's events</h2>
+<%= empty_today %>
+<h2>Future events</h2>
+<%= empty_attending_table %>
+<h2>Past Events </h2>
+<%= empty_attended %>
+
 <%= link_to 'Events', events_path %>

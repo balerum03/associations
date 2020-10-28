@@ -11,8 +11,10 @@
   </head>
 
   <body>
-      <%= link_to 'Log Out', logout_path, method: :delete %>
-      <%= link_to 'Log in', '/login' %>
+      <%= log_or_not[0] %>
+      <%= log_or_not[1] %>
     <%= yield %>
+      <%= log_for_event[0] %>
+      <%= log_for_event[1] %>
   </body>
 </html>
