@@ -32,8 +32,6 @@
   </ol>
 </p>
 
-<h2>Upcoming Events</h2>
-
-<%= link_to 'Attend', attendee_path(@event), method: :post, confirm: 'really?' %> |
+<%= link_to 'Attend', attendee_path(@event), method: :post %>
 <%= link_to 'Edit', edit_event_path(@event) %> |
 <%= link_to 'Back', events_path %>

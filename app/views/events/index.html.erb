@@ -1,31 +1,21 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Events</h1>
+<h3>Signed in as: <%= user %></h3>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Body</th>
-      <th>Date</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<h1>All Events</h1>
 
-  <tbody>
-    <% @events.each do |event| %>
-      <tr>
-        <td><%= event.title %></td>
-        <td><%= event.body %></td>
-        <td><%= event.date %></td>
-        <td><%= link_to 'Attend', attendee_path(event.id), method: :post %></td>
-        <td><%= link_to 'Show', event %></td>
-        <td><%= link_to 'Edit', edit_event_path(event) %></td>
-        <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<%= index_empty_table %>
+
+<br><br>
+
+<%= new_event %>
+
+<h2>Today's Events</h2>
+<%= event_list(@today) %>
+<h2>Upcoming Events</h2>
+<%= event_list(@upcoming) %>
+<h2>Past Events</h2>
+<p><%= event_list(@previous) %></p>
 
 <br>
 
