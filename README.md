@@ -2,9 +2,10 @@
 
 ## ASSOCIATIONS
 
-You want to build a site similar to a private Eventbrite which allows users to create events and then manage user signups. Users can create events and send invitations and parties (sound familiar?). Events take place at a specific date and at a location (which you can just store as a string, like “Andy’s House”).
-
-A user can create events. A user can attend many events. An event can be attended by many users. This will require you to model many-to-many relationships and also to be very conscious about your foreign keys and class names (hint: you won’t be able to just rely on Rails’ defaults like you have before).
+In this project, we created three tables (User, Event, and attendance), and they are connected using the has_many_through relationships on the models.
+We build a site in which a user can create an account with that the user can create as many events as he/she wishes, at the same time the user can attend different events created by other users, the attendances are store on their table, we also used sessions to create our own login and logout actions.
+While 'logged-in' the user can: create events, see all events, and attend other events.
+While 'logged-out' the user can: see all events, create an account, or if he/she has an account already log-in.
 
 ## 🔧 Built With
 
@@ -31,7 +32,12 @@ To get a local copy up and running follow these simple example steps.
 
 ## How To Run This Application In Console
 
-- In the terminal from the project repository, type `rails console` and run all test units as displayed in the the Odin projects ``https://www.theodinproject.com/courses/ruby-on-rails/lessons/associations``
+- After cloning the repo, go to the directory where the project was cloned and open your terminal.
+- Once you are on the terminal type 'bundle install' 
+- Then run 'rails db:migrate' no migrate the database.
+- When the migration is done then just type 'rails server'.
+- Go to your browser and in the URL section put '127.0.0.1:3000', where '3000' is the port ruby has as default.
+- If the port '3000' is busy or not working you can set the port by using 'rails server -p 4001' where '4001' is the port that you may have available.
 
 
 # Authors
