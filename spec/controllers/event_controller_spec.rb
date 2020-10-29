@@ -1,3 +1,4 @@
+# rubocop: disable Layout/LineLength
 require 'rails_helper'
 
 RSpec.describe EventsController, type: :controller do
@@ -24,3 +25,5 @@ RSpec.describe EventsController, type: :controller do
     expect(response).to render_template('events/edit')
   end
 end
+
+# rubocop: enable Layout/LineLength

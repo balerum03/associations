@@ -29,11 +29,10 @@ gem 'simple_form', '~> 5.0', '>= 5.0.3'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
-
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'rails-controller-testing'
   gem 'database_cleaner', '~> 1.8', '>= 1.8.5'
+  gem 'rails-controller-testing'
+  gem 'rspec-rails'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
