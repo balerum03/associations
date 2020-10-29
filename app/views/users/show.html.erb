@@ -12,7 +12,7 @@
   <%= link_to 'Edit', edit_user_path(@user) %> |
   <%= link_to 'Home', root_path %>
 </div>
-<h2> This are <%= @user.username %>'s events </h2>
+<h2> These are <%= @user.username %>'s events </h2>
 <% @user.own_events.each do |e| %>
   <p><%= e.title %></p>
   <p><%= e.body %></p>

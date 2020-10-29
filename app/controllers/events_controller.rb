@@ -34,6 +34,7 @@ class EventsController < ApplicationController
     @attendee.event_id = @event.id
     @attendee.user_id = current_user.id
     @attendee.save
+    redirect_to @event
   end
 
   # POST /events
