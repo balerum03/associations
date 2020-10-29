@@ -38,4 +38,20 @@ module UsersHelper
       render 'today_events'
     end
   end
+
+  def user_own_events
+    @user.own_events
+  end
+
+  def past_events_user
+    @user.events.previous
+  end
+
+  def future_events_user
+    @user.events.upcoming
+  end
+
+  def today_events_user
+    @user.events.today
+  end
 end

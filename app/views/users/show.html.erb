@@ -13,7 +13,7 @@
   <%= link_to 'Home', root_path %>
 </div>
 <h2> These are <%= @user.username %>'s events </h2>
-<% @user.own_events.each do |e| %>
+<% user_own_events.each do |e| %>
   <p><%= e.title %></p>
   <p><%= e.body %></p>
   <p><%= e.date %></p>

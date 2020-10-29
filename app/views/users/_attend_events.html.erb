@@ -11,7 +11,7 @@
   </thead>
 
   <tbody>
-  <% @user.events.upcoming.each do |event| %>
+  <% future_events_user.each do |event| %>
     <tr>
       <td><%= event.title %></td>
       <td><%= event.body %></td>

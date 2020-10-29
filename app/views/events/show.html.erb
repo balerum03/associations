@@ -15,12 +15,6 @@
   <%= @event.date %>
 </p>
 <p>
-  <strong>Atendees</strong>
-</p>
-
-<p>
-  <strong>Number of Attendees:</strong>
-  <%= @attendees.where(event_id: @event.id).count %><br><br>
   <strong>Attendees:</strong>
   <ol>
     <% @attendees.where(event_id: @event.id).each do |i|%>
