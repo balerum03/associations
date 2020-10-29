@@ -33,11 +33,11 @@ To get a local copy up and running follow these simple example steps.
 ## How To Run This Application In Console
 
 - After cloning the repo, go to the directory where the project was cloned and open your terminal.
-- Once you are on the terminal type 'bundle install' 
-- Then run 'rails db:migrate' no migrate the database.
-- When the migration is done then just type 'rails server'.
-- Go to your browser and in the URL section put '127.0.0.1:3000', where '3000' is the port ruby has as default.
-- If the port '3000' is busy or not working you can set the port by using 'rails server -p 4001' where '4001' is the port that you may have available.
+- Once you are on the terminal type `bundle install` 
+- Then run `rails db:migrate` no migrate the database.
+- When the migration is done then just type `rails server`.
+- Go to your browser and in the URL section put `127.0.0.1:3000`, where `3000` is the port ruby has as default.
+- If the port `3000` is busy or not working you can set the port by using `rails server -p 4001` where `4001` is the port that you may have available.
 
 
 # Authors
