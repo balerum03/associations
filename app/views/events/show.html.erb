@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @event.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @event.body %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @event.date %>
+</p>
+<p>
+  <strong>Attendees:</strong>
+  <ol>
+    <% @attendees.where(event_id: @event.id).each do |i|%>
+      <li>
+       <p>User Name: <%= @users.find(i.user_id).username %> <br/></p>
+      	<p>Email: <%= @users.find(i.user_id).email %></p>
+      </li>
+    <% end %>
+  </ol>
+</p>
+
+<%= link_to 'Attend', attendee_path(@event), method: :post %>
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>

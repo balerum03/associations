@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Associate</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+      <%= log_or_not[0] %>
+      <%= log_or_not[1] %>
+    <%= yield %>
+      <%= log_for_event[0] %>
+      <%= log_for_event[1] %>
+  </body>
+</html>

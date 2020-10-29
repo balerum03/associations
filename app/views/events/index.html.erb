@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<h3>Signed in as: <%= user %></h3>
+
+<h1>All Events</h1>
+
+<%= index_empty_table %>
+
+<br><br>
+
+<%= new_event %>
+
+<h2>Today's Events</h2>
+<%= event_list(@today) %>
+<h2>Upcoming Events</h2>
+<%= event_list(@upcoming) %>
+<h2>Past Events</h2>
+<p><%= event_list(@previous) %></p>
+
+<br>
+
+<%= link_to 'New Event', new_event_path %>
